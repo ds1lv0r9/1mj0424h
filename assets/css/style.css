@@ -1,0 +1,138 @@
+body
+{
+    background-color: #92a8d1;
+}
+
+
+div#left
+{
+    width: 25%;
+    float: left;
+}
+
+div#left > ul
+{
+    list-style: none;
+}
+
+div#left > ul a
+{
+    text-decoration: none;
+}
+
+div#right
+{
+    width: 75%;
+    float: left;
+}
+
+
+div.html-demo
+{
+    margin: 1em  0 2em 0;
+}
+
+
+table#employees
+{
+    border-collapse:collapse;
+}
+
+table#employees tr td, th
+{
+    border:1px solid #ccc;
+    padding:5px;
+
+}
+
+table#employees tr:nth-child(2n)
+{
+    background: #31f1f1;
+}
+
+table#employees tr:nth-child(2n+1)
+{
+    background: #a8a8f8;
+}
+
+
+table#business-trips
+{
+    border-collapse:collapse;
+}
+
+table#business-trips tr td, th
+{
+    border:1px solid #ccc;
+    padding:5px;
+
+}
+
+table#business-trips th
+{
+    background: #666;
+}
+
+table#business-trips tr:nth-child(2n)
+{
+    background: #31f1f1;
+}
+
+table#business-trips tr:nth-child(2n+1)
+{
+    background: #a8a8f8;
+}
+
+
+table#clients
+{
+    border-collapse:collapse;
+}
+
+table#clients tr td th
+{
+    border:1px solid #ccc;
+    padding:5px;
+}
+
+table#clients th
+{
+    background: #666;
+}
+
+table#clients tr:nth-child(2n)
+{
+    background: #31f1f1;
+}
+
+table#clients tr:nth-child(2n+1)
+{
+    background: #a8a8f8;
+}
+
+
+table#new-client
+{
+    border-collapse:collapse;
+}
+
+table#new-client tr td th
+{
+    border:1px solid #ccc;
+    padding:5px;
+}
+
+table#new-client th
+{
+    background: #666;
+}
+
+table#new-client tr:nth-child(2n)
+{
+    background: #31f1f1;
+}
+
+table#new-client tr:nth-child(2n+1)
+{
+    background: #a8a8f8;
+}
